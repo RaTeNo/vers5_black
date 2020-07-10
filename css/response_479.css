@@ -911,4 +911,13 @@
         margin-left: auto;
     }
 
+    .product_info .buy .price{
+        flex-wrap: wrap;
+    }
+    .product_info .buy .price .val + .val{
+        width: 100%;
+        text-align: right;
+    }
+
+
 }
