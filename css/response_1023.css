@@ -269,7 +269,6 @@
 
         display: none;
 
-        margin-bottom: 10px;
         padding: 5px 0;
 
         border-radius: 0;
@@ -1634,6 +1633,19 @@
 
     aside .block{       
         background: var(--main_color2);
+    }
+
+    header .menu .item a.touch_link + .sub_menu.show {
+        display: block;
+        
+    }
+
+    header .menu .item a.touch_link + .sub_menu.show a {
+        padding-left:40px;
+    }
+
+    header .menu .item a.touch_link + .sub_menu.show .sub_menu a{
+        padding-left:50px;
     }
   
 }
