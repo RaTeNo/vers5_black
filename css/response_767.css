@@ -1295,6 +1295,8 @@
         margin: 0;
         padding-bottom: 100%;
     }
-
+     .products_category .flex>*{
+        width: calc(50% - 23px);
+    }
 
 }
