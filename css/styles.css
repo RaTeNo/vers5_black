@@ -115,6 +115,7 @@ button[type=reset]
     --font_size: 17px;
     --font_size_title: 40px;
     --font_family: 'SF Pro Text', 'Arial', sans-serif;
+    --font_family2: "Playfair Display", 'Arial', sans-serif;
     --box-shadow-color: rgba(255, 99, 112, .2);
     --main_color1: rgba(255,255,255,0.1);
     --main_color2: #C82481;
@@ -305,7 +306,7 @@ body.lock
 
 .block_head .title
 {   
-    font-family: "Playfair Display";
+    font-family: var(--font_family2);
     font-weight: bold;
     font-size: var(--font_size_title);
     line-height: 53px;
@@ -346,7 +347,7 @@ body.lock
 
 .block .link
 {
-    font-family: "Playfair Display";
+    font-family: var(--font_family2);
     color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -378,7 +379,7 @@ body.lock
 
 .block_head .all_link
 {
-    font-family: "Playfair Display";
+    font-family: var(--font_family2);
     color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -753,7 +754,7 @@ body.lock
     cursor: pointer;
     transition: .2s linear;
     border: none;
-    font-family: "Playfair Display";
+    font-family: var(--font_family2);
     color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -1109,7 +1110,7 @@ header .logo a
 header .logo .name
 {
     color: #fff;
-    font-family: 'Playfair Display';
+    font-family: var(--font_family2);
     font-size: 16px;
     font-weight: 900;
     line-height: 16px;
@@ -1853,7 +1854,7 @@ aside .block .title {
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -2086,7 +2087,7 @@ aside .filter .submit_btn
     transition: .2s linear;
     text-transform: uppercase;
     border: none;
-    font-family: "Playfair Display";
+    font-family: var(--font_family2);
     color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -2181,7 +2182,7 @@ aside > *:last-child
 .first_section .info .title
 {
     color: #fff;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: var(--font_size_title);
@@ -2364,7 +2365,7 @@ position: absolute;
     max-width: 100%;
     margin: 0 auto;
     padding-bottom: 32px;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: var(--font_size_title);
@@ -2417,7 +2418,7 @@ position: absolute;
     color: #fff;
     position: relative;
     padding-bottom: 32px;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: var(--font_size_title);
@@ -2507,7 +2508,7 @@ position: absolute;
     color: #fff;
     position: relative;
     padding-bottom: 32px;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: var(--font_size_title);
@@ -2635,7 +2636,7 @@ position: absolute;
     font-weight: bold;
     font-size: 28px;
     line-height: 37px;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
 }
 
 .advantages .item .desc
@@ -2777,7 +2778,7 @@ position: absolute;
     border-radius: 50%;
     content: counters(div, '') '';
     counter-increment: div;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -2799,7 +2800,7 @@ position: absolute;
 
 .how_we_work .info .item .name {
     color: #fff;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: 23px;
@@ -2972,7 +2973,7 @@ position: absolute;
 {
     color: #fff;
     margin-top: 20px;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: 28px;
@@ -3109,7 +3110,7 @@ position: absolute;
 .articles .article .name
 {   
     color:#fff;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-size: 24px;
     line-height: 32px;
 
@@ -3361,7 +3362,7 @@ position: absolute;
     font-size: 37px;
     line-height: 49px;
     color: var(--main_color2);
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
 }
 
 .prices .item .price small
@@ -3494,7 +3495,7 @@ position: absolute;
     padding: 30px 45px 30px 45px;
     cursor: pointer;
     transition: color .2s linear;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -3728,7 +3729,7 @@ position: absolute;
 
     position: relative;
     
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     margin-top: 18px;
     padding-left: 25px;
 }
@@ -3911,7 +3912,7 @@ position: absolute;
 
 .stocks .stock .name {
     color: var(--main_color1);
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -4018,7 +4019,7 @@ position: absolute;
 
 .team .item .name {
     color: #fff;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: 28px;
@@ -4361,7 +4362,7 @@ position: absolute;
     text-decoration: none;
     color: #fff;
     text-align: center;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: 28px;
@@ -4596,7 +4597,7 @@ position: absolute;
 .services .service .name {
     color: #fff;
     word-break: break-word;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -4863,7 +4864,7 @@ position: absolute;
 }
 
 .products .product .name {
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -4879,7 +4880,7 @@ position: absolute;
 
 .products .product .price {
     margin-top: 2px;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: 31px;
@@ -5017,7 +5018,7 @@ position: absolute;
 
     width: 350px;
     max-width: 100%;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
 }
 
 .cart_info .product .name a
@@ -5068,7 +5069,7 @@ position: absolute;
     text-align: center;
     white-space: nowrap;
     text-transform: uppercase;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     opacity: .52;
 }
 
@@ -5162,7 +5163,7 @@ position: absolute;
 {
     color: var(--main_color2);
     margin-left: 20px;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: 25px;
@@ -5236,7 +5237,7 @@ position: absolute;
 {
     color: var(--main_color2);
     margin-left: 20px;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: 51px;
@@ -5370,7 +5371,7 @@ button:disabled
 
 
 .product_info .product_name {
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: 27px;
@@ -5430,7 +5431,7 @@ button:disabled
 }
 
 .product_info .buy .price .val {
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: 51px;
@@ -5449,7 +5450,7 @@ button:disabled
 {
     position: relative;
     padding-left: 22px;
-    font-family: "Playfair Display";
+    font-family: var(--font_family2);
   color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -5484,7 +5485,7 @@ button:disabled
     width: 100%;
     cursor: pointer;
     border: none;
-    font-family: "Playfair Display";
+    font-family: var(--font_family2);
     color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -5777,7 +5778,7 @@ button:disabled
 .article_info .head .info .title
 {
     color:#fff;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: 27px;
@@ -5943,7 +5944,7 @@ button:disabled
     align-items: stretch;
     align-content: stretch;
     flex-wrap: wrap;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: 900;
     font-size: 68px;
@@ -6281,7 +6282,7 @@ button:disabled
 .image_tips .image .info .name
 {
     color: #000;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -6721,7 +6722,7 @@ button:disabled
     font-size: 30px;
     font-weight: 500;
     line-height: 36px;
-    font-family: "Playfair Display";
+    font-family: var(--font_family2);
 }
 
 .quiz_poll .step .desc
@@ -6755,7 +6756,7 @@ button:disabled
 
 .quiz_poll .step .links > *
 {
-    font-family: "Playfair Display";
+    font-family: var(--font_family2);
     color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -6891,7 +6892,7 @@ button:disabled
 .contacts_info .info .title {
     color: #fff;
     margin-bottom: 11px;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -7028,7 +7029,7 @@ button:disabled
 .news .article .name
 {
     color: #fff;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-size: 24px;
     line-height: 32px;
 }
@@ -7420,7 +7421,7 @@ footer .links a:hover
 #thanks .title
 {
     margin-top: 10px;
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -7669,7 +7670,7 @@ footer .links a:hover
 
 .gallery2 .item .info .name {
     color: var(--main_color1);
-    font-family: Playfair Display;
+    font-family: var(--font_family2);
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -7828,7 +7829,7 @@ aside .submit .reset i:after {
 }
 
 .cart_empty .link {
-    font-family: "Playfair Display";
+    font-family: var(--font_family2);
     color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -8404,7 +8405,7 @@ aside .block .data.range{
     text-transform: uppercase;
     border: none;
 
-    font-family: "Playfair Display";
+    font-family: var(--font_family2);
     color: #fff;
     font-size: 16px;
     font-weight: bold;
